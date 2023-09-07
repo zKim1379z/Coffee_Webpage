@@ -1,0 +1,237 @@
+h2::after{
+    display: block;
+    content: " ";
+    background-color: #e67e22;
+    height: 2px;
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.clearfix { zoom: 1; }
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/*------ Header ---------*/
+.carousel-content-header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 20;
+    transform: translate(-50%,-50%);
+}
+
+/*------ Section #2 Menu---------*/
+.section-menu{
+    margin: 0;
+}
+
+
+.menu-show {
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-show li {
+    display: block;
+    float:left;
+    width: 25%;
+}
+
+.menu-photo {
+    width: 100%;    
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.menu-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.20);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.menu-photo img:hover {
+    transform: scale(1.06);
+    opacity: 1;
+}
+
+/* card animate */
+/* .card-animate{
+    width: 100%;
+    height: auto;
+    filter: brightness(70%);
+    transform: scale(1.20);
+    transition: all 0.3s;
+}
+
+.card-animate:hover{
+    transform: scale(1.06);
+    filter: brightness(100%);
+} */
+
+/*------ Section #3 App ---------*/
+
+.section-app{
+    background-color: #e5e5e5;
+    padding: 20px
+}  
+
+.app_screen{
+    width: 40%;
+}
+
+.app-step{
+    margin-bottom: 20px;
+}
+
+.app-step p{
+    font-size: 18px;
+}
+
+.app-step div{
+    border: 2px solid #e67e22;
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    font-size: 150%;
+    text-align: center;
+    padding-top: 5px;
+    color: #e67e22;
+    margin-bottom: 15px;
+}
+
+.app-logo{
+    height: 50px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+/*---- Section #4 Location -----*/
+.loc-detail {
+    margin-bottom: 5px;
+    margin-left: -5px;
+}
+
+.card-body-location{
+    margin-left: -15px;
+}
+
+
+/* --- Section #5 Customer -----*/
+
+.section-customer{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('resource/images/fresh_bean.jpg');
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+blockquote {
+    padding: 5%;
+    font-style: italic;
+    font-size: large;
+    line-height: 140%;
+    position: relative;
+    margin-top: 40px;
+}
+
+/* Before print quote */
+blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+
+}
+
+cite {
+    display: block;
+    font-size: 75%;
+}
+
+cite img {
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/*----Section #6 Sign up------ */
+.section-signup{
+    background-color: #e5e5e5;
+}
+
+.plan-price{
+    font-size: 400%;
+    font-weight: 100;
+    color: #e67e22;
+}
+
+.plan-price span {
+    font-size: 40%;
+    font-weight: 300;
+}
+
+.card-body-plan ul{
+    list-style: none;
+    padding-left: 5px;
+}
+
+.card-body-plan i{
+    margin-right: 8px;
+}
+
+.card-body-plan li{
+    font-size: larger;
+    padding: 5px 0;
+}
+
+/* ---Section #7 Form----*/
+input[type="checkbox"] {
+    margin: 15px 5px 10px 0;
+}
+
+textarea {
+    width: 100%;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+/* ----Footer---- */
+footer a{
+    color: #6c757d
+    
+
+}
+
+/*------ ICON ---------*/
+.icon-big {
+    display: block;
+    font-size: 300%;
+    color: #e67e22;
+    margin-bottom: 10px;
+    
+}
+
+.icon-small {
+    display: inline-block;
+    font-size: 120%;
+    color: #e67e22;
+    text-align:center;
+    line-height: 120%;
+    vertical-align: middle;
+    width: 25px;    /* add */
+}
